@@ -1,0 +1,77 @@
+body {
+    position: relative;
+    width: 1920px;
+    height: 5722px;
+
+    background: #090E16;
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+li > a {
+    width: 66.45px;
+    left: 1046.64px;
+    padding-right: 10px;
+    padding-top: 5px;
+    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    float: right;
+    
+    text-decoration: none;
+    text-align: center;
+    
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.toolbar {
+    position: absolute;
+    width: 1640px;
+    height: 64px;
+    left: 140px;
+    top: 20px;
+
+    background: rgba(123, 74, 226, 0.1);
+    border-radius: 16px;
+}
+
+.toolbar_selected {
+    width: 66.45px;
+    left: 1046.64px;
+    padding-right: 10px;
+    padding-top: 5px;
+    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    float: right;
+    
+    text-decoration: none;
+    text-align: center;
+    
+    color: rgba(123, 74, 226, 0.6);
+}
+
+li > a:hover {
+    width: 66.45px;
+    left: 1046.64px;
+    padding-right: 10px;
+    padding-top: 5px;
+    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    float: right;
+    
+    text-decoration: none;
+    text-align: center;
+    
+    color: rgba(123, 74, 226, 0.6);
+}

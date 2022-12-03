@@ -1,8 +1,6 @@
 body {
     position: relative;
-    width: 1920px;
-    height: 5722px;
-
+    overflow-x: hidden;
     background: #090E16;
 }
 
@@ -14,7 +12,7 @@ ul {
 li > a {
     width: 66.45px;
     left: 1046.64px;
-    padding-right: 10px;
+    margin-right: 20px;
     padding-top: 5px;
     
     font-family: 'Raleway';
@@ -74,4 +72,225 @@ li > a:hover {
     text-align: center;
     
     color: rgba(123, 74, 226, 0.6);
+}
+
+.contact_me {
+position: absolute;
+width: 196px;
+height: 44px;
+left: 1584px;
+top: 468px;
+}
+
+.contact_me:hover {
+    fill: rgba(123, 74, 226, 0.6);
+}
+
+.profile {
+    position: absolute;
+    left: 33.8%;
+    right: 33.8%;
+    top: 150px;
+    bottom: 84.79%;  
+}
+
+.profile_icons {
+    position: absolute;
+    width: 684px;
+    height: 370.09px;
+    left: 618px;
+    top: 290px;
+}
+
+.profile_name {
+    position: absolute;
+    width: 412.35px;
+    height: 243px;
+    left: 140px;
+    top: 387px;
+}
+
+.button {
+    cursor: pointer;
+}
+
+.border1 {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 1974px;
+    height: 526px;
+    left: -25px;
+    top: 934px;
+    
+    border: 1px solid rgba(123, 74, 226, 0.5);
+}
+
+.border2 {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 1974px;
+    height: 766px;
+    left: -9px;
+    top: 2070px;
+
+    border: 1px solid rgba(123, 74, 226, 0.5);
+}
+
+.border3 {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 1974px;
+    height: 447px;
+    left: -49px;
+    top: 3559px;
+
+    border: 1px solid rgba(123, 74, 226, 0.5);
+}
+
+.view_projects_button {
+    position: absolute;
+    width: 529px;
+    height: 65px;
+    left: 697px;
+    top: 1320px;
+
+    background: rgba(123, 74, 226, 0.1);
+    box-shadow: 0px 0px 15px rgba(123, 74, 226, 0.5);
+    border-radius: 30px;
+}
+
+.view_projects_text {
+    position: absolute;
+    width: 213.92px;
+    height: 37px;
+    left: 854px;
+    top: 1327.12px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 0px;
+    align-items: center;
+    text-align: center;
+
+    color: rgba(123, 74, 226, 0.6);
+}
+
+.about_me {
+    position: absolute;
+    width: 1760.35px;
+    height: 487.18px;
+    left: 141px;
+    top: 1535px;
+}
+
+.portfolio_title {
+    position: absolute;
+    width: 663px;
+    height: 129px;
+    left: 141px;
+    top: 2145px;
+}
+
+.experience {
+    position: absolute;
+    width: 1066.96px;
+    height: 364px;
+    left: 428px;
+    top: 1021px;
+}
+
+.work_options {
+    position: absolute;
+    width: 616px;
+    height: 60px;
+    left: 1164px;
+    top: 2214px;
+}
+
+.work_rect {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 360px;
+    height: 460px;
+    left: 149px;
+    top: 2301px;
+
+    border: 1px solid rgba(123, 74, 226, 0.5);
+    border-radius: 16px;
+}
+
+.work_text_h1 {
+    position: absolute;
+    width: 168.14px;
+    height: 25.12px;
+    left: 179px;
+    top: 2328.12px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+
+    transform: rotate(-0.03deg);
+}
+
+.work_text_p {
+    position: absolute;
+    width: 299.78px;
+    height: 100px;
+    left: 178.94px;
+    top: 2362.1px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: rgba(255, 255, 255, 0.5);
+
+    transform: rotate(-0.03deg);
+}
+
+.work_online {
+    position: absolute;
+    width: 83px;
+    height: 30px;
+    left: 179px;
+    top: 2479px;
+}
+
+.skills {
+    position: absolute;
+    width: 663px;
+    height: 578px;
+    left: 628px;
+    top: 2911px;
+}
+
+.lets_talk {
+    position: absolute;
+    width: 663px;
+    height: 304px;
+    left: 628px;
+    top: 3634px;      
+}
+
+.footer {
+    position: absolute;
+    width: 1931px;
+    height: 88px;
+    left: -6px;
+    top: 4006px;
 }

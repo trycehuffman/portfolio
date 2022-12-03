@@ -1,0 +1,76 @@
+.code_type_box {
+    /* Rectangle 3 */
+
+    position: absolute;
+    width: 106px;
+    height: 30px;
+    left: 270px;
+    top: 2479px;
+
+    background: rgba(123, 74, 226, 0.1);
+    border-radius: 8px;
+}
+
+.code_type_text {
+    /* Typescript */
+
+    position: absolute;
+    width: 90px;
+    height: 20px;
+    left: 278px;
+    top: 2473px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    align-items: center;
+    text-align: center;
+
+    color: #7B4AE2;
+}
+
+.code_type_box1 {
+    /* Rectangle 3 */
+        
+    position: absolute;
+    width: 106px;
+    height: 30px;
+    left: 385px;
+    top: 2479px;
+    
+    background: rgba(123, 74, 226, 0.1);
+    border-radius: 8px;
+}
+        
+.code_type_text1 {
+    /* Typescript */
+    
+    position: absolute;
+    width: 90px;
+    height: 20px;
+    left: 392px;
+    top: 2473px;
+    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    align-items: center;
+    text-align: center;
+    
+    color: #7B4AE2;
+}
+
+.work_img1 {
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    left: 179px;
+    top: 2531px;
+
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7x8fUEE-sZUzufD1eyLQqp0KV-LQ4pKunmiLWWFAWHZ2PhiqunHkiJJ6GdOoxJUdOWoQ&usqp=CAU);
+    border-radius: 8px; 
+}
